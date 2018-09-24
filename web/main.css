@@ -1,0 +1,92 @@
+body {
+    padding: 0 0 0 0;
+    background-color: #ffffff;
+    background-image: url(images/bg3-dark.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Open Sans","黑体", "华文楷体" ,sans-serif,Helvetica, Arial;
+}
+
+.main-content {
+    width: 300px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    border-radius:25px;
+    margin: 30px auto 0 auto;
+    background: #f1f1f1;
+    -webkit-box-shadow: 0 0 22px 0 rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0 0 22px 0 rgba(50, 50, 50, 1);
+    box-shadow:         0 0 22px 0 rgba(50, 50, 50, 1);
+
+}
+.main-content p {
+    line-height: 26px;
+}
+.main-content h2 {
+    color: dimgray;
+}
+
+.header {
+    padding: 80px 10px 20px 10px;
+
+}
+
+
+.footer {
+    margin-top: 20px;
+}
+.footer p {
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #fff;
+    text-shadow:0 0 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #37a5f0;
+    text-shadow: 1px 1px 1px;
+    border: 1px ;
+
+    border-radius: 4px;
+    background-color:#FFF;
+}
+p {
+    color: #37a5f0;
+    text-shadow: 1px 1px 1px;
+    border: 1px ;
+}
+.but {
+    width: 300px;
+    height: 40px;
+    min-height: 20px;
+    border-left: 120px solid #312E3D;
+    background-color: #37a5f0;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 0;
+}
