@@ -9,6 +9,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="commons-codec-1.11" />
+          <element id="library" level="application" name="json-lib-2.4-jdk15" />
         </element>
       </element>
     </root>

@@ -24,12 +24,12 @@ public class httpHeadersImpl implements httpHeadersDao {
     @Override
     public HttpHeaders findByStuNumber(String stuNumber) {
         JdbcUtil jdbcUtil = new JdbcUtil();
-        String sql = "select * from httpHeaders where stuNumber='"+stuNumber+"'";
+        String sql = "select * from httpHeaders where stuNumber='" + stuNumber + "'";
         System.out.println(sql);
         ResultSet resultSet = jdbcUtil.excuteQuery(sql);
         HttpHeaders httpHeaders = new HttpHeaders();
         try {
-            while(resultSet.next()){
+            while (resultSet.next()) {
                 httpHeaders.setStuNumber(resultSet.getString("stuNumber"));
                 httpHeaders.setUser_Agent(resultSet.getString("user_Agent"));
                 httpHeaders.setApp(resultSet.getString("app"));

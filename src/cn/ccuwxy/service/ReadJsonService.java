@@ -1,5 +1,9 @@
 package cn.ccuwxy.service;
 
-public interface ReadJsonService {
+import cn.ccuwxy.model.Json;
+import cn.ccuwxy.model.Log;
 
+public interface ReadJsonService {
+    public Json getUTIDByJson(String strUrl);
+    public Log getUserInfo(Json userJson);
 }

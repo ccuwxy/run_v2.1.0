@@ -1,8 +1,11 @@
 package cn.ccuwxy.servlet;
 
 import cn.ccuwxy.model.UserInfo;
+import cn.ccuwxy.service.ReadJsonService;
+import cn.ccuwxy.service.ReadJsonServiceImpl;
 import cn.ccuwxy.service.UserInfoService;
 import cn.ccuwxy.service.UserInfoServiceImpl;
+import cn.ccuwxy.util.HttpUrl;
 
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
@@ -22,7 +25,16 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             return;
         }else{
             userInfo.setPassword(password);
+            String loginUrl=HttpUrl.loginUrl+"?stuNum="+userInfo.getStuID()+
+                    "&phoneNum="+userInfo.getPhoneNumber()+"&passWd="+userInfo.getMd5Password()+
+                    "&schoolId="+userInfo.getSchoolID()+"&stuId="+userInfo.getStuID()+
+                    "&token="+userInfo.getToken();
+            ReadJsonService readJsonService = new ReadJsonServiceImpl();
+            if(readJsonService.getUTIDByJson(loginUrl)!=null){
+                response.sendRedirect("passwordError.jsp");
+            }else{
 
+            }
         }
 
     }
