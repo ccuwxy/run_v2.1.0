@@ -22,4 +22,12 @@
         <servlet-name>UpdataServlet</servlet-name>
         <url-pattern>/updataServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>AddUserServlet</servlet-name>
+        <servlet-class>cn.ccuwxy.servlet.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUserServlet</servlet-name>
+        <url-pattern>/AddUserServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
