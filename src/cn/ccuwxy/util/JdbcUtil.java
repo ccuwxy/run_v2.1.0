@@ -7,6 +7,10 @@ public class JdbcUtil {
     private Statement stat;
     private ResultSet rs;
 
+    public Connection getConn() {
+        return conn;
+    }
+
     public JdbcUtil() {
         try {
             Class.forName("com.mysql.jdbc.Driver");

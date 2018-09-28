@@ -10,6 +10,16 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="commons-codec-1.11" />
           <element id="library" level="application" name="json-lib-2.4-jdk15" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/mysql-connector-java-8.0.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/commons-beanutils-1.7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/commons-lang-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/ezmorph-1.0.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/commons-codec-1.11.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/commons-codec-1.111.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/commons-collections-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/commons-io-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../2017-2018-2/gua/20180804/runrungua/lib/commons-logging.jar" />
         </element>
       </element>
     </root>

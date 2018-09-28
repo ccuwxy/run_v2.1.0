@@ -1,8 +1,8 @@
-package cn.ccuwxy.service;
+package cn.ccuwxy.dao;
 
 import cn.ccuwxy.model.HttpHeaderss;
 
-public interface HttpHeadersService {
+public interface HttpHeadersDao {
     public boolean intohttpHeaders(HttpHeaderss httpHeaderss);
 
     public HttpHeaderss findByStuNumber(String stuNumber);

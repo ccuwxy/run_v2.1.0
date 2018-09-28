@@ -14,4 +14,12 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>UpdataServlet</servlet-name>
+        <servlet-class>cn.ccuwxy.servlet.UpdataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdataServlet</servlet-name>
+        <url-pattern>/updataServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -1,6 +1,6 @@
 package cn.ccuwxy.model;
 
-public class HttpHeaders {
+public class HttpHeaderss {
     private String stuNumber="";
     private String User_Agent = "";//1
     private String app = "com.ccxyct.sunshinemotion";//1
