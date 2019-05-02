@@ -14,7 +14,7 @@ public class JdbcUtil {
     public JdbcUtil() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://139.199.105.207/runrun", "root", "1528154605");
+            conn = DriverManager.getConnection("jdbc:mysql://***", "***", "***");
             stat = null;
             rs = null;
         } catch (Exception e) {
